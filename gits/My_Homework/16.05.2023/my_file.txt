@@ -1,0 +1,18 @@
+vector  push_back  1000 element -   33 ms
+vector  push_back  10000 element -   248 ms
+vector  push_back  100000 element -   2400 ms
+list  push_back  1000 element -   38 ms
+list  push_back  10000 element -   432 ms
+list  push_back  100000 element -   6656 ms
+111001 element vector  insert  0 position -   384 ms
+111001 element vector  insert  medium position -   191 ms
+111001 element vector  insert  111001 position -   0 ms
+111001 element list  insert  0 position -   0 ms
+111001 element list  insert  medium position -   197 ms
+111001 element list  insert  111001 position -   0 ms
+vector pop_back 1000 elemet -   2 ms
+vector pop_back 10000 elemet -   24 ms
+vector pop_back 100000 elemet -   349 ms
+list  pop_back  1000 element -   6 ms
+list  pop_back  10000 element -   60 ms
+list  pop_back  100000 element -   615 ms

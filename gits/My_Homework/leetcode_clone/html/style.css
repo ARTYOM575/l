@@ -1,0 +1,92 @@
+html,body {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image:url(Mozg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.introduction {
+    box-shadow: inset 0 0 40px brown;
+    display: block;
+    padding: 5px 40px;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    max-height: 70%;
+    width: 40%;
+    left: 50%;
+    top: 50%;
+    color: aqua;
+    overflow: auto;
+    overflow-wrap: break-word;
+    border-radius: 10px;
+}
+.list {
+    list-style:none;
+}
+
+.element {
+    visibility: hidden;
+    font-size: 30px;
+    padding: 2px 5px 5px 5px;
+    float: right;
+    margin: 1%;
+    text-align: center;
+    list-style: none;
+}
+
+li a {
+    color: rgba(0, 255, 255, 0.5);
+    text-decoration: none;
+}
+li a:hover {
+    color:  aqua;
+}
+li a:active {
+    color: blue;
+}
+li a:visited {
+    color: rgba(0, 255, 255, 0.7);
+}
+
+.top_div {
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius:0 0 30px 30px ;
+    
+}
+.top_div:hover {
+    background-color: rgba(0, 0, 0, 1);
+    box-shadow: inset 0 0 40px brown;
+}
+
+.top_div:hover li{
+    visibility: visible;
+    
+}
+
+
+
+::-webkit-scrollbar {
+    width: 20px;
+    opacity:0;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 40px;
+    background: rgba(0, 255, 255, 0.7);
+}
+::-webkit-scrollbar-thumb:hover {
+    border-radius: 40px;
+    background: rgba(0, 255, 255, 1);   
+}
+
+
+
+
+
